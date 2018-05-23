@@ -85,6 +85,14 @@ import UIKit
     
     @IBOutlet var spatesteAnkunftRuckfahrtTextField: UITextField!
     
+    @IBOutlet var lblSeatsAvailable: UILabel!
+    
+    
+    @IBOutlet var lblSeatsAvailaibleForRukhFahrt: UILabel!
+    
+    var currentSeats: NSInteger? = 4
+    
+    var currentSeatsAvailaibleForRukhFahrt: NSInteger? = 4
     
     
     var currentTextField : UITextField!
@@ -92,6 +100,7 @@ import UIKit
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -101,11 +110,9 @@ import UIKit
     }
     
 
-    func setUI() -> (){
-       // segmentControl.layer.borderColor = UIColor.black.cgColor
-//        let titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-//        segmentControl.setTitleTextAttributes(titleTextAttributes, for: .normal)
-//        segmentControl.setTitleTextAttributes(titleTextAttributes, for: .selected)
+    func setUI() -> ()
+    {
+    //lblSeatsAvailable.text? = String(currentSeats!)
     }
     
     
@@ -133,7 +140,7 @@ import UIKit
         // Posiiton date picket within a view
         self.datePicker = UIDatePicker(frame:CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 216))
         self.datePicker.backgroundColor = UIColor.white
-        self.datePicker.datePickerMode = UIDatePickerMode.date
+        self.datePicker.datePickerMode = UIDatePickerMode.dateAndTime
         textField.inputView = self.datePicker
         
         
@@ -161,7 +168,7 @@ import UIKit
         let dateFormatter: DateFormatter = DateFormatter()
         
         // Set date format
-        dateFormatter.dateFormat = "MM/dd/yyyy hh:mm a"
+        dateFormatter.dateFormat = "hh:mm a"
         
         // Apply date format
         let selectedDate: String = dateFormatter.string(from: sender.date)
@@ -173,8 +180,8 @@ import UIKit
     
     @objc func doneClick() {
         let dateFormatter1 = DateFormatter()
-        dateFormatter1.dateStyle = .medium
-        dateFormatter1.timeStyle = .none
+        dateFormatter1.dateStyle = .none
+        dateFormatter1.timeStyle = .short
          currentTextField.text = dateFormatter1.string(from: datePicker.date)
         currentTextField.resignFirstResponder()
     }
@@ -217,6 +224,9 @@ import UIKit
         
     }
     
+    
+    
+    
     @IBAction func segmentControlPressed(_ sender: Any)
     {
         switch segmentControl.selectedSegmentIndex {
@@ -231,6 +241,50 @@ import UIKit
         }
         
     }
+    
+    
+    
+    @IBAction func btnPlusSeatPressed(_ sender: Any)
+    {
+        if currentSeats!>3 {
+            return
+        }
+          currentSeats = currentSeats!+1
+          lblSeatsAvailable.text? = String(currentSeats!)
+    }
+        
+   
+    @IBAction func btnMinusSeatsPressed(_ sender: Any)
+    {
+        
+        if currentSeats!<2 {
+            return
+        }
+        currentSeats = currentSeats!-1
+        lblSeatsAvailable.text? = String(currentSeats!)
+    }
+    
+    
+    @IBAction func btnMinusRukhFarhtPressed(_ sender: Any)
+    {
+        if currentSeatsAvailaibleForRukhFahrt!<2 {
+            return
+        }
+        currentSeatsAvailaibleForRukhFahrt = currentSeatsAvailaibleForRukhFahrt!-1
+        lblSeatsAvailaibleForRukhFahrt.text? = String(currentSeatsAvailaibleForRukhFahrt!)
+    }
+    
+    
+    @IBAction func btnPlusRukhFarhtPressed(_ sender: Any)
+    {
+        if currentSeatsAvailaibleForRukhFahrt!>3 {
+            return
+        }
+        currentSeatsAvailaibleForRukhFahrt = currentSeatsAvailaibleForRukhFahrt!+1
+        lblSeatsAvailaibleForRukhFahrt.text? = String(currentSeatsAvailaibleForRukhFahrt!)
+    }
+    
+    
  }
     
 

@@ -57,9 +57,7 @@ images=[UIImage(named:"intro1")!,UIImage(named:"intro2")!,UIImage(named:"intro3"
     // MARK: scrollView Delegate
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-       // NSObject.cancelPreviousPerformRequests(withTarget: self)
-        //perform(#selector(UIScrollViewDelegate.scrollViewDidEndScrollingAnimation), with: nil, afterDelay: 0.3)
-       // self.view.bringSubview(toFront: btnPushToLogin);
+    
         btnPushToLogin.alpha=0.0
         if (scrollView.contentOffset.x >= (scrollView.contentSize.width - scrollView.frame.size.width)) {
             //reach bottom
