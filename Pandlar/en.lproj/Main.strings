@@ -1,0 +1,183 @@
+
+/* Class = "UILabel"; text = "nach      "; ObjectID = "1eQ-3G-0Nm"; */
+"1eQ-3G-0Nm.text" = "nach      ";
+
+/* Class = "UILabel"; text = "nach"; ObjectID = "1vi-td-XGd"; */
+"1vi-td-XGd.text" = "nach";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "2Fm-bi-Dh6"; */
+"2Fm-bi-Dh6.normalTitle" = "+";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "2lZ-rq-cYM"; */
+"2lZ-rq-cYM.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "ab frühestens             "; ObjectID = "35n-jI-gli"; */
+"35n-jI-gli.text" = "ab frühestens             ";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "4Z0-uu-9BZ"; */
+"4Z0-uu-9BZ.text" = "3";
+
+/* Class = "UILabel"; text = "Create Account"; ObjectID = "7JX-g5-jr3"; */
+"7JX-g5-jr3.text" = "Create Account";
+
+/* Class = "UILabel"; text = "Verfügbare Sitzplätze:             "; ObjectID = "7rx-Qd-Z8g"; */
+"7rx-Qd-Z8g.text" = "Verfügbare Sitzplätze:             ";
+
+/* Class = "UILabel"; text = "von"; ObjectID = "8QQ-kd-b6D"; */
+"8QQ-kd-b6D.text" = "von";
+
+/* Class = "UITextField"; placeholder = "   Name"; ObjectID = "8lK-D7-GX2"; */
+"8lK-D7-GX2.placeholder" = "   Name";
+
+/* Class = "UIButton"; normalTitle = "Weiter"; ObjectID = "B7V-rp-jV6"; */
+"B7V-rp-jV6.normalTitle" = "Weiter";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Bbd-qg-Umn"; */
+"Bbd-qg-Umn.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "Cy3-sj-XAw"; */
+"Cy3-sj-XAw.normalTitle" = "+";
+
+/* Class = "UILabel"; text = "nach"; ObjectID = "DGt-5l-K7T"; */
+"DGt-5l-K7T.text" = "nach";
+
+/* Class = "UILabel"; text = "8:00 Uhr"; ObjectID = "ENG-mG-VNv"; */
+"ENG-mG-VNv.text" = "8:00 Uhr";
+
+/* Class = "UILabel"; text = "Hinfahrt"; ObjectID = "GzZ-QO-UQa"; */
+"GzZ-QO-UQa.text" = "Hinfahrt";
+
+/* Class = "UITextField"; placeholder = "   Password"; ObjectID = "H7Z-7w-oNR"; */
+"H7Z-7w-oNR.placeholder" = "   Password";
+
+/* Class = "UILabel"; text = "an Spätestens"; ObjectID = "Jjy-Qy-VMZ"; */
+"Jjy-Qy-VMZ.text" = "an Spätestens";
+
+/* Class = "UILabel"; text = "Hinfahrt"; ObjectID = "LmP-WI-zZ8"; */
+"LmP-WI-zZ8.text" = "Hinfahrt";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "M4f-LR-2kQ"; */
+"M4f-LR-2kQ.text" = "3";
+
+/* Class = "UINavigationItem"; title = "Neue Fahrt"; ObjectID = "M6W-wC-ANi"; */
+"M6W-wC-ANi.title" = "Neue Fahrt";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UILabel"; text = "Späteste Abfarht um:             "; ObjectID = "OID-2o-Cc6"; */
+"OID-2o-Cc6.text" = "Späteste Abfarht um:             ";
+
+/* Class = "UILabel"; text = "Verfügbare Sitzplätze:             "; ObjectID = "OSM-Is-rPw"; */
+"OSM-Is-rPw.text" = "Verfügbare Sitzplätze:             ";
+
+/* Class = "UILabel"; text = "Ruckfahrt"; ObjectID = "PVD-sR-ESm"; */
+"PVD-sR-ESm.text" = "Ruckfahrt";
+
+/* Class = "UITextField"; placeholder = "8:30 Uhr"; ObjectID = "Pub-fx-AUv"; */
+"Pub-fx-AUv.placeholder" = "8:30 Uhr";
+
+/* Class = "UILabel"; text = "Späteste Abfahrt um:             "; ObjectID = "Q1w-c9-6W7"; */
+"Q1w-c9-6W7.text" = "Späteste Abfahrt um:             ";
+
+/* Class = "UIButton"; normalTitle = "Weiter"; ObjectID = "Qzd-pH-sg5"; */
+"Qzd-pH-sg5.normalTitle" = "Weiter";
+
+/* Class = "UITextField"; placeholder = "8:00 Uhr"; ObjectID = "TmQ-2v-VHe"; */
+"TmQ-2v-VHe.placeholder" = "8:00 Uhr";
+
+/* Class = "UILabel"; text = "ab frühestens             "; ObjectID = "UjC-2k-aSc"; */
+"UjC-2k-aSc.text" = "ab frühestens             ";
+
+/* Class = "UILabel"; text = "8.30 Uhr"; ObjectID = "VHd-Ri-POc"; */
+"VHd-Ri-POc.text" = "8.30 Uhr";
+
+/* Class = "UILabel"; text = "an Spätestens"; ObjectID = "W06-0E-1qQ"; */
+"W06-0E-1qQ.text" = "an Spätestens";
+
+/* Class = "UIButton"; normalTitle = "Los geht's"; ObjectID = "X9x-ud-3PP"; */
+"X9x-ud-3PP.normalTitle" = "Los geht's";
+
+/* Class = "UILabel"; text = "Früheste Abfahrt um:             "; ObjectID = "XTy-GY-LMS"; */
+"XTy-GY-LMS.text" = "Früheste Abfahrt um:             ";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "Xss-lo-PJI"; */
+"Xss-lo-PJI.text" = "3";
+
+/* Class = "UILabel"; text = "Zuhause"; ObjectID = "axZ-7V-qzz"; */
+"axZ-7V-qzz.text" = "Zuhause";
+
+/* Class = "UILabel"; text = "an Spätestens"; ObjectID = "cH1-LJ-gw3"; */
+"cH1-LJ-gw3.text" = "an Spätestens";
+
+/* Class = "UILabel"; text = "Von          "; ObjectID = "eKe-ae-jmE"; */
+"eKe-ae-jmE.text" = "Von          ";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "eZd-Lu-60X"; */
+"eZd-Lu-60X.normalTitle" = "-";
+
+/* Class = "UILabel"; text = "Nur Hinfahrt"; ObjectID = "exM-3u-VwZ"; */
+"exM-3u-VwZ.text" = "Nur Hinfahrt";
+
+/* Class = "UILabel"; text = "8:00 Uhr"; ObjectID = "f7Q-aI-8tT"; */
+"f7Q-aI-8tT.text" = "8:00 Uhr";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "fpf-S9-Gsu"; */
+"fpf-S9-Gsu.normalTitle" = "-";
+
+/* Class = "UILabel"; text = "Früheste Abfarht um:             "; ObjectID = "fvz-SY-gae"; */
+"fvz-SY-gae.text" = "Früheste Abfarht um:             ";
+
+/* Class = "UISegmentedControl"; ihL-dJ-PpC.segmentTitles[0] = "Mitfahrer"; ObjectID = "ihL-dJ-PpC"; */
+"ihL-dJ-PpC.segmentTitles[0]" = "Mitfahrer";
+
+/* Class = "UISegmentedControl"; ihL-dJ-PpC.segmentTitles[1] = "Fahrer"; ObjectID = "ihL-dJ-PpC"; */
+"ihL-dJ-PpC.segmentTitles[1]" = "Fahrer";
+
+/* Class = "UISegmentedControl"; ihL-dJ-PpC.segmentTitles[2] = "Beides "; ObjectID = "ihL-dJ-PpC"; */
+"ihL-dJ-PpC.segmentTitles[2]" = "Beides ";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "joL-UA-p6I"; */
+"joL-UA-p6I.text" = "3";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "k0r-v4-3tE"; */
+"k0r-v4-3tE.normalTitle" = "Log in";
+
+/* Class = "UIButton"; normalTitle = "Let's go!"; ObjectID = "k3f-5v-3Pv"; */
+"k3f-5v-3Pv.normalTitle" = "Let's go!";
+
+/* Class = "UILabel"; text = "Arbeit"; ObjectID = "lwD-YA-K4e"; */
+"lwD-YA-K4e.text" = "Arbeit";
+
+/* Class = "UILabel"; text = "nach      "; ObjectID = "m0d-qf-I3j"; */
+"m0d-qf-I3j.text" = "nach      ";
+
+/* Class = "UILabel"; text = "an Spätestens"; ObjectID = "mUN-k2-tDz"; */
+"mUN-k2-tDz.text" = "an Spätestens";
+
+/* Class = "UILabel"; text = "Rückfahrt"; ObjectID = "pW6-hp-t3U"; */
+"pW6-hp-t3U.text" = "Rückfahrt";
+
+/* Class = "UILabel"; text = "8:00 Uhr"; ObjectID = "pgW-Mh-KIQ"; */
+"pgW-Mh-KIQ.text" = "8:00 Uhr";
+
+/* Class = "UILabel"; text = "Von          "; ObjectID = "sG8-Y6-eb3"; */
+"sG8-Y6-eb3.text" = "Von          ";
+
+/* Class = "UILabel"; text = "Arbeit"; ObjectID = "sxX-GO-jrL"; */
+"sxX-GO-jrL.text" = "Arbeit";
+
+/* Class = "UILabel"; text = "Zuhause"; ObjectID = "wXI-pE-RPd"; */
+"wXI-pE-RPd.text" = "Zuhause";
+
+/* Class = "UIBarButtonItem"; title = "<"; ObjectID = "wco-ab-ALV"; */
+"wco-ab-ALV.title" = "<";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";
+
+/* Class = "UILabel"; text = "Forget Password?"; ObjectID = "zGm-Ce-X6Y"; */
+"zGm-Ce-X6Y.text" = "Forget Password?";
+
+/* Class = "UIButton"; normalTitle = "Bestätigen"; ObjectID = "zRv-1c-4bc"; */
+"zRv-1c-4bc.normalTitle" = "Bestätigen";
