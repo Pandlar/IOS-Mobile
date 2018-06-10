@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class DriveData{
+    static var DriveModels = [DriveModel]()
+}

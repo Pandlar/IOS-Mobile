@@ -8,33 +8,7 @@
 
 import UIKit
 
-extension UITextField {
-    //////TextField extention for making line in bottom
-    func setBottomLine(borderColor: UIColor) {
-        
-        self.borderStyle = UITextBorderStyle.none
-        self.backgroundColor = UIColor.clear
-        
-        let borderLine = UIView()
-        let height = 1.0
-        borderLine.frame = CGRect(x: 0, y: Double(self.frame.height) - height, width: Double(self.frame.width), height: height)
-        
-        borderLine.backgroundColor = borderColor
-        self.addSubview(borderLine)
-    }
-    
-    func setLeftPaddingPoints(_ amount:CGFloat){
-        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
-        self.leftView = paddingView
-        self.leftViewMode = .always
-    }
-    func setRightPaddingPoints(_ amount:CGFloat) {
-        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
-        self.rightView = paddingView
-        self.rightViewMode = .always
-    }
 
-}
 
 
 class LoginVc: UIViewController {
@@ -57,8 +31,8 @@ class LoginVc: UIViewController {
     
     func setUI() -> (){
         // Do any additional UI setup after loading the view.
-        txtName.setBottomLine(borderColor: .green)
-        txtPassword.setBottomLine(borderColor: .green)
+        txtName.setBottomLine(borderColor: .gray)
+        txtPassword.setBottomLine(borderColor: .gray)
         txtName.setRightPaddingPoints(15);
     }
     

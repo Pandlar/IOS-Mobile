@@ -8,23 +8,53 @@
 
 import Foundation
 
-class HomeDriveModel
+enum roleOfUser: String {
+    case Fahrer = "Fahrer"
+    case MitFahrer = "MitFahrer"
+    case Beides = "Beides"
+}
+
+class DriveModel 
 {
     var name:String
-    var startingDateTime:String?
-    var endingDateTime:String?
+    var startingDateTimeRukhfarht:NSDate?
+    var endingDateTimeRukhfarht:NSDate?
+    var startingDateTimeHinfarht:NSDate?
+    var endingDateTimeHinfarht:NSDate?
     var startingAddress:String?
     var endingAddress:String?
-    var role:String?
-    var seatsAvailible:String?
-    
-    init(MyName:String,MyStartingDateTime:String,MyEndingDateTime:String,MyStartingAddress:String,MyEndingAddress:String,MyRole:String,MySeatsAvailible:String){
+    var role:roleOfUser?
+    var seatsAvailibleHinfarht:Int
+    var seatsAvailibleRukhfarht:Int
+    init(MyName:String,MyStartingDateTimeRukhfarht:NSDate,MyEndingDateTimeRukhfarht:NSDate,MyStartingAddress:String,MyEndingAddress:String,MyRole:roleOfUser,MySeatsAvailibleHinfarht:Int,MySeatsAvailibleRukhfarht:Int,MyStartingDateTimeHinfarht:NSDate,MyEndDateTimeHinfarht:NSDate){
         name=MyName
-        startingDateTime=MyStartingDateTime
-        endingDateTime=MyEndingDateTime
+        
+        startingDateTimeRukhfarht=MyStartingDateTimeRukhfarht
+        endingDateTimeRukhfarht=MyEndingDateTimeRukhfarht
         startingAddress=MyStartingAddress
         endingAddress=MyEndingAddress
         role=MyRole
-        seatsAvailible=MySeatsAvailible
+        seatsAvailibleHinfarht = MySeatsAvailibleHinfarht
+        seatsAvailibleRukhfarht = MySeatsAvailibleRukhfarht
+        
+        startingDateTimeHinfarht=MyStartingDateTimeHinfarht
+        endingDateTimeHinfarht=MyEndDateTimeHinfarht
+        
+       
+    }
+    
+    init()
+    {
+        name=""
+        startingDateTimeRukhfarht = NSDate()
+        endingDateTimeRukhfarht = NSDate()
+        startingAddress = ""
+        endingAddress  = ""
+        role = roleOfUser.Fahrer
+        seatsAvailibleHinfarht = 0
+        seatsAvailibleRukhfarht = 0
+        startingDateTimeHinfarht = NSDate()
+        endingDateTimeHinfarht = NSDate()
+        
     }
 }

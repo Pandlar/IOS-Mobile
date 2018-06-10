@@ -10,6 +10,11 @@ import UIKit
 
 class FahrerCell: UITableViewCell {
 
+    @IBOutlet var lblRoleOfRider: UILabel!
+    @IBOutlet var lblDateAndTime: UILabel!
+    @IBOutlet var lblStartingPoint: UILabel!
+    @IBOutlet var lblSeatAvailable: UILabel!
+    @IBOutlet var lblEndingPoint: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

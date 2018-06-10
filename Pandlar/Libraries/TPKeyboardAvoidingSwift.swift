@@ -702,7 +702,6 @@ internal class TPKeyboardAvoidingState:NSObject
 {
     var priorInset = UIEdgeInsets.zero
     var priorScrollIndicatorInsets = UIEdgeInsets.zero
-    
     var keyboardVisible = false
     var keyboardRect = CGRect.zero
     var priorContentSize = CGSize.zero

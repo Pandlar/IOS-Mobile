@@ -30,7 +30,7 @@ class IntroVc: UIViewController ,UIScrollViewDelegate {
     func setUI() -> ()
  {
      
-images=[UIImage(named:"intro1")!,UIImage(named:"intro2")!,UIImage(named:"intro3")!,UIImage(named:"intro4")!];
+images=[UIImage(named:"intro1")!,UIImage(named:"intro2")!,UIImage(named:"intro3")!,UIImage(named:"intro4")!,UIImage(named:"intro5")!];
         
         for i in 0..<images.count {
             let imageView = UIImageView()
