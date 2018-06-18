@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F4963966D90BBD11FF1B0B /* Pods_PandlarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E97E67D07B992F376C8BCA /* Pods_PandlarUITests.framework */; };
+		4ADED1188066731D40DF9AFF /* Pods_Pandlar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF801CFBC17D6B83CF2A7B4 /* Pods_Pandlar.framework */; };
+		F4680D453AC6DA48293FE818 /* Pods_PandlarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9355F9080DE25EF335F9A848 /* Pods_PandlarTests.framework */; };
 		FA04CAE420A9CBB80093792C /* DriveSearchVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA04CAE320A9CBB80093792C /* DriveSearchVc.swift */; };
 		FA3E38F820B9B5CB006B49A4 /* MyTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E38F720B9B5CB006B49A4 /* MyTabBarItem.swift */; };
+		FA506DD020CFFBE30069049A /* SharedManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA506DCF20CFFBE30069049A /* SharedManger.swift */; };
 		FA533DAD20B5D19300603430 /* DriveSearchSummaryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA533DAC20B5D19300603430 /* DriveSearchSummaryVc.swift */; };
 		FA54A36F20BD687E00F5DEDB /* MitFahrerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54A36D20BD687E00F5DEDB /* MitFahrerCell.swift */; };
 		FA54A37020BD687E00F5DEDB /* MitFahrerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA54A36E20BD687E00F5DEDB /* MitFahrerCell.xib */; };
+		FA59683320CD59CC00B52385 /* ProfileMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59683220CD59CC00B52385 /* ProfileMainVC.swift */; };
+		FA59684720CD62DE00B52385 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA59684420CD617500B52385 /* Eureka.framework */; };
+		FA59684820CD62DE00B52385 /* Eureka.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA59684420CD617500B52385 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA5E7EF620B998F200353FB3 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E7EF520B998F200353FB3 /* CheckBoxButton.swift */; };
 		FA73863620BE294000AB179A /* FahrerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73863420BE294000AB179A /* FahrerCell.swift */; };
 		FA73863720BE294000AB179A /* FahrerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73863520BE294000AB179A /* FahrerCell.xib */; };
@@ -22,6 +29,9 @@
 		FA8B528B20BC308B00D8A851 /* HomeDriveVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B528A20BC308B00D8A851 /* HomeDriveVc.swift */; };
 		FA8B528F20BC36D600D8A851 /* DriveFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B528E20BC36D600D8A851 /* DriveFunctions.swift */; };
 		FA8B529120BC38FB00D8A851 /* DriveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B529020BC38FB00D8A851 /* DriveData.swift */; };
+		FA9DF06B20CDDB900069D5B2 /* vehicleSettingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DF06A20CDDB900069D5B2 /* vehicleSettingVc.swift */; };
+		FA9DF06D20CDDB9F0069D5B2 /* AppSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DF06C20CDDB9F0069D5B2 /* AppSettingVC.swift */; };
+		FA9DF06F20CDDBB70069D5B2 /* ProfileSettingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DF06E20CDDBB70069D5B2 /* ProfileSettingVc.swift */; };
 		FAA838CE20B96502000EC97D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA838CD20B96502000EC97D /* Extensions.swift */; };
 		FAE09AAE20A24656004D5A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE09AAD20A24656004D5A6C /* AppDelegate.swift */; };
 		FAE09AB220A24656004D5A6C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE09AB120A24656004D5A6C /* SecondViewController.swift */; };
@@ -52,6 +62,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FA59684320CD617500B52385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA59683E20CD617500B52385 /* Eureka.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51729DEB1B9A4F5E004A00EB;
+			remoteInfo = Eureka;
+		};
+		FA59684520CD617500B52385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA59683E20CD617500B52385 /* Eureka.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51729DF51B9A4F5E004A00EB;
+			remoteInfo = EurekaTests;
+		};
+		FA59684920CD62DE00B52385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA59683E20CD617500B52385 /* Eureka.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51729DEA1B9A4F5E004A00EB;
+			remoteInfo = Eureka;
+		};
 		FAE09AC120A24656004D5A6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAE09AA220A24656004D5A6C /* Project object */;
@@ -68,12 +99,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FA59684B20CD62DE00B52385 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA59684820CD62DE00B52385 /* Eureka.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A7C670FD83AFB1D7597EF8E /* Pods-PandlarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandlarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandlarUITests/Pods-PandlarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B46349A1D632F4225076829 /* Pods-PandlarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandlarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandlarUITests/Pods-PandlarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FF801CFBC17D6B83CF2A7B4 /* Pods_Pandlar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pandlar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE91F08AF577B667EFEADA2 /* Pods-Pandlar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pandlar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pandlar/Pods-Pandlar.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA36CEF6A6A96349B909C7E /* Pods-PandlarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandlarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandlarTests/Pods-PandlarTests.release.xcconfig"; sourceTree = "<group>"; };
+		9355F9080DE25EF335F9A848 /* Pods_PandlarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandlarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7910B8EB27EC53F43869278 /* Pods-Pandlar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pandlar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pandlar/Pods-Pandlar.release.xcconfig"; sourceTree = "<group>"; };
+		B2E97E67D07B992F376C8BCA /* Pods_PandlarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandlarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E94D3EF4BF7288958016C4 /* Pods-PandlarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandlarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandlarTests/Pods-PandlarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA04CAE320A9CBB80093792C /* DriveSearchVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveSearchVc.swift; sourceTree = "<group>"; };
 		FA3E38F720B9B5CB006B49A4 /* MyTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarItem.swift; sourceTree = "<group>"; };
+		FA506DCF20CFFBE30069049A /* SharedManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedManger.swift; sourceTree = "<group>"; };
 		FA533DAC20B5D19300603430 /* DriveSearchSummaryVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveSearchSummaryVc.swift; sourceTree = "<group>"; };
 		FA54A36D20BD687E00F5DEDB /* MitFahrerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitFahrerCell.swift; sourceTree = "<group>"; };
 		FA54A36E20BD687E00F5DEDB /* MitFahrerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MitFahrerCell.xib; sourceTree = "<group>"; };
+		FA59683220CD59CC00B52385 /* ProfileMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainVC.swift; sourceTree = "<group>"; };
+		FA59683E20CD617500B52385 /* Eureka.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Eureka.xcodeproj; path = Eureka/Eureka.xcodeproj; sourceTree = SOURCE_ROOT; };
 		FA5E7EF520B998F200353FB3 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 		FA73863420BE294000AB179A /* FahrerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrerCell.swift; sourceTree = "<group>"; };
 		FA73863520BE294000AB179A /* FahrerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FahrerCell.xib; sourceTree = "<group>"; };
@@ -84,6 +141,9 @@
 		FA8B528A20BC308B00D8A851 /* HomeDriveVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDriveVc.swift; sourceTree = "<group>"; };
 		FA8B528E20BC36D600D8A851 /* DriveFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveFunctions.swift; sourceTree = "<group>"; };
 		FA8B529020BC38FB00D8A851 /* DriveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveData.swift; sourceTree = "<group>"; };
+		FA9DF06A20CDDB900069D5B2 /* vehicleSettingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicleSettingVc.swift; sourceTree = "<group>"; };
+		FA9DF06C20CDDB9F0069D5B2 /* AppSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingVC.swift; sourceTree = "<group>"; };
+		FA9DF06E20CDDBB70069D5B2 /* ProfileSettingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingVc.swift; sourceTree = "<group>"; };
 		FAA838CD20B96502000EC97D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FAB9A73520B7A0150043977C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		FAE09AAA20A24656004D5A6C /* Pandlar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandlar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +185,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA59684720CD62DE00B52385 /* Eureka.framework in Frameworks */,
+				4ADED1188066731D40DF9AFF /* Pods_Pandlar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4680D453AC6DA48293FE818 /* Pods_PandlarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +202,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F4963966D90BBD11FF1B0B /* Pods_PandlarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6996214F4F6C3F0CE1B5845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE91F08AF577B667EFEADA2 /* Pods-Pandlar.debug.xcconfig */,
+				A7910B8EB27EC53F43869278 /* Pods-Pandlar.release.xcconfig */,
+				B6E94D3EF4BF7288958016C4 /* Pods-PandlarTests.debug.xcconfig */,
+				7BA36CEF6A6A96349B909C7E /* Pods-PandlarTests.release.xcconfig */,
+				1A7C670FD83AFB1D7597EF8E /* Pods-PandlarUITests.debug.xcconfig */,
+				3B46349A1D632F4225076829 /* Pods-PandlarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA04CAE220A9C9290093792C /* DriveSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +241,7 @@
 		FA533DAE20B5D76B00603430 /* HelperClasses */ = {
 			isa = PBXGroup;
 			children = (
+				FA59683E20CD617500B52385 /* Eureka.xcodeproj */,
 				FA3E38F720B9B5CB006B49A4 /* MyTabBarItem.swift */,
 				FAA838CD20B96502000EC97D /* Extensions.swift */,
 				FA5E7EF520B998F200353FB3 /* CheckBoxButton.swift */,
@@ -187,6 +265,26 @@
 				FA54A36E20BD687E00F5DEDB /* MitFahrerCell.xib */,
 			);
 			path = MitFahrerCell;
+			sourceTree = "<group>";
+		};
+		FA59683120CD598600B52385 /* ProfileMainVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA59683220CD59CC00B52385 /* ProfileMainVC.swift */,
+				FA9DF06920CDDB620069D5B2 /* AppSettingVC */,
+				FA9DF06820CDDB500069D5B2 /* vehicleSettingVc */,
+				FA9DF06720CDDB3D0069D5B2 /* ProfileSettingVc */,
+			);
+			path = ProfileMainVC;
+			sourceTree = "<group>";
+		};
+		FA59683F20CD617500B52385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA59684420CD617500B52385 /* Eureka.framework */,
+				FA59684620CD617500B52385 /* EurekaTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		FA73863320BE290A00AB179A /* FahrerCell */ = {
@@ -248,9 +346,44 @@
 			path = DriveModel;
 			sourceTree = "<group>";
 		};
+		FA9DF06720CDDB3D0069D5B2 /* ProfileSettingVc */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DF06E20CDDBB70069D5B2 /* ProfileSettingVc.swift */,
+			);
+			path = ProfileSettingVc;
+			sourceTree = "<group>";
+		};
+		FA9DF06820CDDB500069D5B2 /* vehicleSettingVc */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DF06A20CDDB900069D5B2 /* vehicleSettingVc.swift */,
+			);
+			path = vehicleSettingVc;
+			sourceTree = "<group>";
+		};
+		FA9DF06920CDDB620069D5B2 /* AppSettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DF06C20CDDB9F0069D5B2 /* AppSettingVC.swift */,
+			);
+			path = AppSettingVC;
+			sourceTree = "<group>";
+		};
+		FA9FE67420CEDA7300BBD38A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF801CFBC17D6B83CF2A7B4 /* Pods_Pandlar.framework */,
+				9355F9080DE25EF335F9A848 /* Pods_PandlarTests.framework */,
+				B2E97E67D07B992F376C8BCA /* Pods_PandlarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAB9A73320B79F060043977C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA59683120CD598600B52385 /* ProfileMainVC */,
 				FA8B528320BC097400D8A851 /* HomeDrive */,
 				FA83F70520A5FD2B00722BD9 /* Login */,
 				FA83F70820A6083A00722BD9 /* Intro */,
@@ -263,11 +396,14 @@
 		FAE09AA120A24656004D5A6C = {
 			isa = PBXGroup;
 			children = (
+				FA506DCF20CFFBE30069049A /* SharedManger.swift */,
 				FAE09AAD20A24656004D5A6C /* AppDelegate.swift */,
 				FAE09AAC20A24656004D5A6C /* Pandlar */,
 				FAE09AC320A24656004D5A6C /* PandlarTests */,
 				FAE09ACE20A24657004D5A6C /* PandlarUITests */,
 				FAE09AAB20A24656004D5A6C /* Products */,
+				FA9FE67420CEDA7300BBD38A /* Frameworks */,
+				F6996214F4F6C3F0CE1B5845 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -350,13 +486,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE09AD420A24657004D5A6C /* Build configuration list for PBXNativeTarget "Pandlar" */;
 			buildPhases = (
+				C6CE77E2674E56DC2F695309 /* [CP] Check Pods Manifest.lock */,
 				FAE09AA620A24656004D5A6C /* Sources */,
 				FAE09AA720A24656004D5A6C /* Frameworks */,
 				FAE09AA820A24656004D5A6C /* Resources */,
+				FA59684B20CD62DE00B52385 /* Embed Frameworks */,
+				EB9B74A7336B11A0513670E9 /* [CP] Embed Pods Frameworks */,
+				56D4778D7EA7E09046BB611C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FA59684A20CD62DE00B52385 /* PBXTargetDependency */,
 			);
 			name = Pandlar;
 			productName = Pandlar;
@@ -367,9 +508,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE09AD720A24657004D5A6C /* Build configuration list for PBXNativeTarget "PandlarTests" */;
 			buildPhases = (
+				CEC147AAC6622FFA857F08E8 /* [CP] Check Pods Manifest.lock */,
 				FAE09ABC20A24656004D5A6C /* Sources */,
 				FAE09ABD20A24656004D5A6C /* Frameworks */,
 				FAE09ABE20A24656004D5A6C /* Resources */,
+				0B2454EA045C1BA98F7E27C4 /* [CP] Embed Pods Frameworks */,
+				5CE69A3A5F7F6B0A16C676E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,9 +529,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE09ADA20A24657004D5A6C /* Build configuration list for PBXNativeTarget "PandlarUITests" */;
 			buildPhases = (
+				C67A6A8F26B5F34C570348E7 /* [CP] Check Pods Manifest.lock */,
 				FAE09AC720A24657004D5A6C /* Sources */,
 				FAE09AC820A24657004D5A6C /* Frameworks */,
 				FAE09AC920A24657004D5A6C /* Resources */,
+				3001AE0A997256163F3A869D /* [CP] Embed Pods Frameworks */,
+				533FBEE7C5C557C2CA1059A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,6 +584,12 @@
 			mainGroup = FAE09AA120A24656004D5A6C;
 			productRefGroup = FAE09AAB20A24656004D5A6C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA59683F20CD617500B52385 /* Products */;
+					ProjectRef = FA59683E20CD617500B52385 /* Eureka.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FAE09AA920A24656004D5A6C /* Pandlar */,
@@ -445,6 +598,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA59684420CD617500B52385 /* Eureka.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Eureka.framework;
+			remoteRef = FA59684320CD617500B52385 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA59684620CD617500B52385 /* EurekaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EurekaTests.xctest;
+			remoteRef = FA59684520CD617500B52385 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FAE09AA820A24656004D5A6C /* Resources */ = {
@@ -494,6 +664,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B2454EA045C1BA98F7E27C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandlarTests/Pods-PandlarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3001AE0A997256163F3A869D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandlarUITests/Pods-PandlarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533FBEE7C5C557C2CA1059A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandlarUITests/Pods-PandlarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D4778D7EA7E09046BB611C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pandlar/Pods-Pandlar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE69A3A5F7F6B0A16C676E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandlarTests/Pods-PandlarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67A6A8F26B5F34C570348E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandlarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6CE77E2674E56DC2F695309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pandlar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC147AAC6622FFA857F08E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandlarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9B74A7336B11A0513670E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pandlar/Pods-Pandlar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pandlar/Pods-Pandlar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAE09AA620A24656004D5A6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -501,11 +823,15 @@
 			files = (
 				FA8B529120BC38FB00D8A851 /* DriveData.swift in Sources */,
 				FA8B528F20BC36D600D8A851 /* DriveFunctions.swift in Sources */,
+				FA9DF06B20CDDB900069D5B2 /* vehicleSettingVc.swift in Sources */,
 				FA04CAE420A9CBB80093792C /* DriveSearchVc.swift in Sources */,
 				FA73863620BE294000AB179A /* FahrerCell.swift in Sources */,
+				FA506DD020CFFBE30069049A /* SharedManger.swift in Sources */,
 				FAA838CE20B96502000EC97D /* Extensions.swift in Sources */,
 				FA5E7EF620B998F200353FB3 /* CheckBoxButton.swift in Sources */,
 				FA54A36F20BD687E00F5DEDB /* MitFahrerCell.swift in Sources */,
+				FA9DF06D20CDDB9F0069D5B2 /* AppSettingVC.swift in Sources */,
+				FA9DF06F20CDDBB70069D5B2 /* ProfileSettingVc.swift in Sources */,
 				FA3E38F820B9B5CB006B49A4 /* MyTabBarItem.swift in Sources */,
 				FA8B528B20BC308B00D8A851 /* HomeDriveVc.swift in Sources */,
 				FA83F70A20A6086100722BD9 /* IntroVc.swift in Sources */,
@@ -513,6 +839,7 @@
 				FA768E1B20A8A4AA00690DFD /* TPKeyboardAvoidingSwift.swift in Sources */,
 				FA8B528720BC277C00D8A851 /* DriveModel.swift in Sources */,
 				FA533DAD20B5D19300603430 /* DriveSearchSummaryVc.swift in Sources */,
+				FA59683320CD59CC00B52385 /* ProfileMainVC.swift in Sources */,
 				FAE09AAE20A24656004D5A6C /* AppDelegate.swift in Sources */,
 				FA83F70720A5FDA700722BD9 /* LoginVc.swift in Sources */,
 			);
@@ -537,6 +864,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FA59684A20CD62DE00B52385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			targetProxy = FA59684920CD62DE00B52385 /* PBXContainerItemProxy */;
+		};
 		FAE09AC220A24656004D5A6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FAE09AA920A24656004D5A6C /* Pandlar */;
@@ -679,7 +1011,9 @@
 		};
 		FAE09AD520A24657004D5A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE91F08AF577B667EFEADA2 /* Pods-Pandlar.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VZ87L5764;
@@ -694,7 +1028,9 @@
 		};
 		FAE09AD620A24657004D5A6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7910B8EB27EC53F43869278 /* Pods-Pandlar.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VZ87L5764;
@@ -709,6 +1045,7 @@
 		};
 		FAE09AD820A24657004D5A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E94D3EF4BF7288958016C4 /* Pods-PandlarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -726,6 +1063,7 @@
 		};
 		FAE09AD920A24657004D5A6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA36CEF6A6A96349B909C7E /* Pods-PandlarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -743,6 +1081,7 @@
 		};
 		FAE09ADB20A24657004D5A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7C670FD83AFB1D7597EF8E /* Pods-PandlarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -759,6 +1098,7 @@
 		};
 		FAE09ADC20A24657004D5A6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B46349A1D632F4225076829 /* Pods-PandlarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

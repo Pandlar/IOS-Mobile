@@ -1,0 +1,6 @@
+framework module Pods_PandlarUITests {
+  umbrella header "Pods-PandlarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

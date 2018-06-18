@@ -71,7 +71,7 @@ class DriveSearchSummaryVc: UIViewController {
         lblHinFahrtSpatestens.text=(driveDetailObj?.endingDateTimeHinfarht?.toString(format: "HH:mm"))! + "Uhr"
         lblRukhFahrtFruhestens.text=(driveDetailObj?.startingDateTimeRukhfarht?.toString(format: "HH:mm"))! + "Uhr"
         lblRukhFahrtSpartestens.text = (driveDetailObj?.endingDateTimeHinfarht?.toString(format: "HH:mm"))! + "Uhr"
-        lblRole.text =   "Du Bist "+(driveDetailObj?.role?.rawValue)!
+        lblRole.text =   "Du bist "+(driveDetailObj?.role?.rawValue)!
         lblHinFahrtSitzPlatze.text =  String(driveDetailObj!.seatsAvailibleHinfarht)
     lblRukhFahrtSitzPlatze.text = String(driveDetailObj!.seatsAvailibleRukhfarht)
         
@@ -80,15 +80,14 @@ class DriveSearchSummaryVc: UIViewController {
     
  // MARK: - IBOutlet
     @IBAction func btnBestätigenPressed(_ sender: Any) {
-        driveDetailObj?.name = "fakeName"
+        driveDetailObj?.name = "Yen Luu"
         DriveFunctions.saveDriveData(driveModel: driveDetailObj!)
         UIApplication.shared.keyWindow?.addSubview(viewCompletionOfDrive)
         viewCompletionOfDrive.tag = 1000
        viewCompletionOfDrive .addConstaintsToSuperview(leftOffset: 0, topOffset: 0)
         viewCompletionOfDrive.addConstaintsWithSize(height: self.view.frame.height, width: self.view.frame.width)
         self.tabBarController?.tabBar.isHidden = true
-        
-    }
+        }
     
     
     @IBAction func btnOKPressed(_ sender: Any) {
@@ -96,6 +95,7 @@ class DriveSearchSummaryVc: UIViewController {
         self.tabBarController?.tabBar.isHidden = false
          UIApplication.shared.keyWindow?.viewWithTag(1000)?.removeFromSuperview()
          self.navigationController?.popToRootViewController(animated:true)
+        
     }
     
     /*

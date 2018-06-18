@@ -1,0 +1,15 @@
+PODS:
+  - Cosmos (16.0.0)
+  - ImagePicker (3.0.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 16.0)
+  - ImagePicker
+
+SPEC CHECKSUMS:
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+
+PODFILE CHECKSUM: bfd31339b59a8ca535d5e0130288133e488d9373
+
+COCOAPODS: 1.4.0

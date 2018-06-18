@@ -71,6 +71,8 @@
     {
         let titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         self.segmentControl.setTitleTextAttributes(titleTextAttributes, for: .normal)
+        self.lblSeatsAvailable.text = "1"
+        self.lblSeatsAvailaibleForRukhFahrt.text = "1"
         //self.segmentControl.setTitleTextAttributes(titleTextAttributes, for: .selected)
 }
     
@@ -84,8 +86,8 @@
     // MARK:Exit 1
     @IBAction func btnWieterHinfahrtPressed(_ sender: Any) {
         if (validateUserEntry() == nil) {
-            self.showAlert(title:"Sorry", message:"Please select desired time before moving forward")
-            return
+             self.showAlert(title:"Angaben unvollständig", message:"Bitte überprüfe die Abfahrts- und Ankunftszeit deiner Fahrt.")
+             return
         }
         if btnSwitchNurHinFahrt.isOn{
             self.performSegue(withIdentifier: "DriveToDriveSummary", sender: nil)
@@ -107,7 +109,7 @@
     @IBAction func btnRukhFarhtPressed(_ sender: Any) {
         let dictDriveSearchData = validateUserEntry()
         if (dictDriveSearchData == nil) {
-            self.showAlert(title:"Sorry", message:"Please select desired time before moving forward")
+            self.showAlert(title:"Angaben unvollständig", message:"Bitte überprüfe die Abfahrts- und Ankunftszeit deiner Fahrt.")
             return
         }
         self.performSegue(withIdentifier: "DriveToDriveSummary", sender: nil)
@@ -195,6 +197,11 @@
     
     func validateUserEntry() -> ([String:Any]?) {
         // theTextField.text!.isEmpty
+        
+        
+        
+        
+        
         guard textFieldfrühesteAbfahrtHinfahrt.text.nilIfEmpty != nil else {
             return nil
         }
@@ -218,6 +225,18 @@
             dictForDriveTimes["spatesteAnkunftRuckfahrt"] = textFieldspatesteAnkunftRuckfahrt.text!
     
         }
+        
+        
+        guard driveObj.startingDateTimeHinfarht != driveObj.endingDateTimeHinfarht
+            else {
+                return nil
+        }
+        
+        guard driveObj.startingDateTimeRukhfarht != driveObj.endingDateTimeRukhfarht
+            else {
+                return nil
+        }
+        
         return dictForDriveTimes
         
     }

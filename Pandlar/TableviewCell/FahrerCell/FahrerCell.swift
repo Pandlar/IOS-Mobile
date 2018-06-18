@@ -15,9 +15,12 @@ class FahrerCell: UITableViewCell {
     @IBOutlet var lblStartingPoint: UILabel!
     @IBOutlet var lblSeatAvailable: UILabel!
     @IBOutlet var lblEndingPoint: UILabel!
+    @IBOutlet var imageViewFahrer: UIImageView?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        imageViewFahrer?.layer.cornerRadius = (imageViewFahrer?.frame.width)!/2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

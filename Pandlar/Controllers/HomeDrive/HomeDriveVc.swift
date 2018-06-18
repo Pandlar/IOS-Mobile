@@ -60,6 +60,15 @@ class HomeDriveVc: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     
     
+      // MARK: Action
+    
+    
+    @IBAction func btnJetztPressed(_ sender: Any) {
+        self.tabBarController?.selectedIndex = 0
+    }
+    
+    
+    
     
    // MARK: tableView
     
@@ -75,13 +84,16 @@ class HomeDriveVc: UIViewController,UITableViewDelegate,UITableViewDataSource {
         switch role {
         case .Fahrer:
             let cell = tableView.dequeueReusableCell(withIdentifier: "FahrerCell", for: indexPath) as! FahrerCell
+            cell.imageViewFahrer?.image = SharedManger.sharedInstance.getProfileImage()
             return cell
         case .MitFahrer:
             let  cell = tableView.dequeueReusableCell(withIdentifier: "MitFahrerCell", for: indexPath) as! MitFahrerCell
             cell.lblName.text =  ArrayOfObjectDrives[indexPath.row].name
+            cell.imageViewOfMitFahrer?.image = SharedManger.sharedInstance.getProfileImage()
             return cell
         case .Beides:
             let cell = tableView.dequeueReusableCell(withIdentifier: "FahrerCell", for: indexPath) as! FahrerCell
+            cell.imageViewFahrer?.image = SharedManger.sharedInstance.getProfileImage()
             return cell
         }
         

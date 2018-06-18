@@ -9,9 +9,9 @@
 import Foundation
 
 enum roleOfUser: String {
-    case Fahrer = "Fahrer"
-    case MitFahrer = "MitFahrer"
-    case Beides = "Beides"
+    case Fahrer = "fahrer"
+    case MitFahrer = "Mitfahrer"
+    case Beides = "beides"
 }
 
 class DriveModel 
